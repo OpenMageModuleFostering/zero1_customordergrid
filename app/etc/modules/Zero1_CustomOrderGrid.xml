@@ -4,9 +4,6 @@
         <Zero1_CustomOrderGrid>
             <active>true</active>
             <codePool>community</codePool>
-            <depends>
-                <Zero1_Core/>
-            </depends>
         </Zero1_CustomOrderGrid>
     </modules>
 </config>

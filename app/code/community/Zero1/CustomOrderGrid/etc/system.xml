@@ -1,5 +1,12 @@
 <?xml version="1.0"?>
 <config>
+    <tabs>
+        <zero1_core>
+            <label>Zero 1 Ltd</label>
+            <sort_order>999</sort_order>
+        </zero1_core>
+    </tabs>
+
     <sections>
         <zero1_customordergrid translate="label" module="zero1_customordergrid">
             <class>separator-top</class>
