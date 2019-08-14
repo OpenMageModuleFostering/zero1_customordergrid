@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Zero1_CustomOrderGrid>
-            <version>1.0.1</version>
+            <version>1.0.2</version>
         </Zero1_CustomOrderGrid>
     </modules>
     <global>
@@ -30,15 +30,24 @@
             </zero1_customordergrid_setup>
         </resources>
         <events>
-            <sales_order_grid_collection_load_before>
+            <zero1_custom_order_grid_add_columns>
                 <observers>
                     <zero1_customordergrid>
                         <type>model</type>
                         <class>zero1_customordergrid/observer</class>
-                        <method>salesOrderGridCollectionLoadBefore</method>
+                        <method>zero1CustomOrderGridAddColumns</method>
                     </zero1_customordergrid>
                 </observers>
-            </sales_order_grid_collection_load_before>
+            </zero1_custom_order_grid_add_columns>
+            <zero1_custom_order_grid_prepare_collection>
+                <observers>
+                    <zero1_customordergrid>
+                        <type>model</type>
+                        <class>zero1_customordergrid/observer</class>
+                        <method>zero1CustomOrderGridPrepareCollection</method>
+                    </zero1_customordergrid>
+                </observers>
+            </zero1_custom_order_grid_prepare_collection>
         </events>
     </global>
     <adminhtml>

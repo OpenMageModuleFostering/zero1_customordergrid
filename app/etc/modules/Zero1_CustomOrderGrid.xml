@@ -4,6 +4,17 @@
         <Zero1_CustomOrderGrid>
             <active>true</active>
             <codePool>community</codePool>
+            <!--
+                <depends>
+                 http://stackoverflow.com/questions/12610949/magento-module-layout-xml-load-order
+
+                     <Enterprise_GiftCardAccount/>
+                     <Enterprise_Staging/>
+                     <Mage_Captcha/>
+                     <Mage_XmlConnect/>
+                     <Enterprise_Reminder/>
+
+            </depends>-->
         </Zero1_CustomOrderGrid>
     </modules>
 </config>

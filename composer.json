@@ -3,7 +3,7 @@
     "type": "magento-module",
     "license": "Commercial",
     "homepage": "",
-    "description": "Adds new fields to the order grid.",
+    "description": "Add custom columns to sales order gird.",
     "authors": [
     {
         "name": "Arron Moss",
