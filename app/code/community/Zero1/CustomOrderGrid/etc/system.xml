@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <zero1_customordergrid translate="label" module="zero1_customordergrid">
+            <class>separator-top</class>
+            <label>Custom Order Grid</label>
+            <tab>zero1_core</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>0</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <options translate="label">
+                    <label>General Options</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <columns_to_show translate="label">
+                            <label>Columns To Show</label>
+                            <frontend_type>multiselect</frontend_type>
+                            <source_model>zero1_customordergrid/source_fields</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </columns_to_show>
+                    </fields>
+                </options>
+            </groups>
+        </zero1_customordergrid>
+    </sections>
+</config>

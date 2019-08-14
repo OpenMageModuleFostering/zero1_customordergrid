@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Zero1_CustomOrderGrid</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://shop.zero1.co.uk/LICENSE.txt">Commercial</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Adds new fields to the order grid.</summary>
+    <description>Adds new fields to the order grid.</description>
+    <notes>First Release</notes>
+    <authors><author><name>Arron Moss</name><user>zero1limited</user><email>arron.moss@zero1.co.uk</email></author></authors>
+    <date>2013-04-22</date>
+    <time>07:40:30</time>
+    <contents><target name="magecommunity"><dir name="Zero1"><dir name="CustomOrderGrid"><dir name="Block"><dir name="Sales"><dir name="Order"><dir name="Grid"><dir name="Renderer"><file name="Product.php" hash="2bc72bfca53e7b1dd868d9866d57c58d"/></dir></dir><file name="Grid.php" hash="8bec80a831e086c8563b4a49b14cf81a"/></dir><file name="Order.php" hash="2fa73a7f9527969e06a8399b1e574e76"/></dir></dir><dir name="Helper"><file name="Data.php" hash="b13e271f2c77300eff69c62efbd93eb0"/></dir><dir name="Model"><file name="Observer.php" hash="fa77d75a5d3a04261aaa457d047c31cb"/><dir name="Source"><file name="Fields.php" hash="48b894a075b59bee4954f32188e4f574"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="c70a0d687271000fe0c0d55a703bf65f"/><file name="config.xml" hash="e11911cf79ef1ea5c649c2382f22a8ce"/><file name="system.xml" hash="db4d422750481b096ee5513abcad7b57"/></dir><dir name="sql"><dir name="zero1_customordergrid_setup"><file name="mysql4-install-0.1.0.php" hash="8fe5d704f8524628b85e438052d54324"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Zero1_CustomOrderGrid.xml" hash="74b37c672011608f456301cbe96fc7db"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><dir name="zero1"><file name="customordergrid.xml" hash="bfeb216a6489c319fdf1de5ed1ce6a30"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
